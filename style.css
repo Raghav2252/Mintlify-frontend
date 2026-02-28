@@ -170,3 +170,99 @@ body{
     opacity: 0.9;
     transition: opacity 0.3s ease;
 }
+.customer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;                  /* Space between boxes */
+    overflow-x: auto;           /* Enable horizontal scroll */
+    overflow-y: hidden;         /* No vertical scroll */
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+.cust-div{
+    height: 225px;
+    width: 425px;
+    background-color: rgb(65, 175, 65);
+    border-radius: 15px;
+    flex-shrink: 0;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cust-div:hover{
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+#cd1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-image:url("/Images/perplexity.webp")
+}
+#cd2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-image:url("/Images/anaconda.webp")
+}
+#cd3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-image:url("/Images/cognition.webp")
+}
+#cd4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-image:url("/Images/fidelity.webp")
+}
+#cd5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-image:url("/Images/glean.webp")
+}
+#cd6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-image:url("/Images/kalshi.webp")
+}
+#cd7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-image:url("/Images/lovable.webp")
+}
+#cd8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-image:url("/Images/replit.webp")
+}
+#cd9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-image:url("/Images/togetherai.webp")
+}
+#cd10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-image:url("/Images/vercel.webp")
+}
